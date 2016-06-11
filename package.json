@@ -1,0 +1,27 @@
+{
+  "name": "agile-http-api",
+  "version": "1.0.0",
+  "description": "AGILE HTTP bridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muka/agile-http-api.git"
+  },
+  "author": "Luca Capra <lcapra@create-net.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muka/agile-http-api/issues"
+  },
+  "homepage": "https://github.com/muka/agile-http-api#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "dbus-native": "^0.2.0",
+    "express": "^4.13.4"
+  }
+}
