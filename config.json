@@ -1,5 +1,11 @@
 {
+
   "basePath": "/api",
   "port": 3000,
-  "host": "localhost"
+  "host": "localhost",
+
+  "namespaces": [
+    "iot.agile.*",
+    "org.freedesktop.*"
+  ]
 }
